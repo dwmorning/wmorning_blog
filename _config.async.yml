@@ -82,6 +82,13 @@ categorie_card: #分类卡片
     len: 2
     list: 
 
+# 关于 About
+about:
+  # title:        # 标题
+  introduction: # 个人简单描述
+  blog:         # 博客信息
+  privacy:      # 隐私权说明    
+
 # 评论
 comment:
   giscus:
