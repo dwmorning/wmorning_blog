@@ -1,49 +1,86 @@
 # 网站图标 Favicon
 favicon:
-    logo: favicon-32x32.png
-    icon16: favicon-16x16.png
-    icon32: favicon-32x32.png
-    appleTouchIcon: apple-touch-icon.png
+    logo: /img/favicon-32x32.png
+    icon16: /img/favicon-16x16.png
+    icon32: /img/favicon-32x32.png
+    appleTouchIcon: /img/favicon-32x32.png
     webmanifest: /site.webmanifest
     visibilitychange: true
     hidden: failure.ico
-    showText: (/≧▽≦/)咦！又好了！
-    hideText: (●—●)喔哟，崩溃啦！
+    showText: (/≧▽≦/)wmorningBlog
+    hideText: (●—●)休息一下啦！
 
 # 用户信息
 user:
-    name: 白云苍狗
-    first_name: 苍狗
-    last_name: 白云
-    email: admin@imalun.com
-    domain: https://www.imalun.com
+    name: 菜鸟书生
+    first_name: Blog
+    last_name: wmorning
+    domain: https://dwmorning.github.io/
     avatar: /img/avatar.jpg
     describe: 网站简介。
     ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
 
+# 导航栏 TopBars
+top_bars:
+    - title: 主页
+      url: /
+    - title: 归档
+      url: /archives/
+      noswup: true
+    - title: 分类
+      url: /categories/
+      noswup: true
+    - title: 关于
+      url: /about/
+      noswup: true
+
 # 侧栏 Sidebar
 sidebar:
+    typedTextPrefix: 优秀的人
+    typedText: [ '总是努力翻山越岭' ]
     social: # 社交地址
-        - name: github
-          icon: fab fa-github
-          url: https://github.com
-        - name: gitee
-          icon: iconfont cg-gitee
-          url: https://gitee.com
+      # - name: github
+      #   icon: fab fa-github
+      #   url: https://github.com/dwmorning
+    info: 
+      - key: 文档地址
+        val: <a href="https://dwmorning.github.io/" target="_blank" rel="nofollow">查看</a>  
 
 # 页脚 Footer
 footer:
   powered:
-    enable: true
+    enable: false
   beian:
     enable: false
     icp: 
-  copyrightYear:
+  copyrightYear: 2023
   live_time:
     enable: false
     prefix: footer.tips
-    start_time: 04/10/2022 17:00:00
-  custom_text:
+    start_time: 04/10/2023 17:00:00
+  custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
+
+# 文章 Article
+toc:
+    enable: true
+    list_number: true
+    max_depth: 3
+    min_depth: 1
+
+lazyload: #图片懒加载
+    enable: true
+archive: #归档页
+    type: more # less more
+cover: #自定义封面图
+    default: /img/block.jpg
+    type: img
+post_pagination: #上下篇文章
+    enable: true
+    type: large # large || small
+categorie_card: #分类卡片
+    enable: true
+    len: 2
+    list: 
 
 # 评论
 comment:
