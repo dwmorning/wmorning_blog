@@ -10,6 +10,15 @@ favicon:
     showText: (/≧▽≦/)wmorningBlog
     hideText: (●—●)休息一下啦！
 
+# 加速静态资源 CDN
+cdn:
+    css:
+    js:
+        head:
+        base:
+        async:
+        defer:
+
 # 用户信息
 user:
     name: 菜鸟书生
@@ -18,7 +27,7 @@ user:
     domain: https://dwmorning.github.io/
     avatar: /img/avatar.jpg
     describe: 网站简介。
-    ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+    ruleText: 项目均为相关在线展示，网站内容积极向上。
 
 # 导航栏 TopBars
 top_bars:
@@ -27,8 +36,8 @@ top_bars:
     - title: 归档
       url: /archives/
       noswup: true
-    - title: 标签
-      url: /tags/
+    - title: 项目
+      url: /links/
       noswup: true
     - title: 关于
       url: /about/
@@ -38,14 +47,40 @@ top_bars:
 sidebar:
     typedTextPrefix: 优秀的人
     typedText: [ '总是努力翻山越岭' ]
-    tags:
     social: # 社交地址
       # - name: github
       #   icon: fab fa-github
       #   url: https://github.com/dwmorning
     info: 
       - key: leetcode
-        val: <a href="/categories/" target="_blank" rel="nofollow">查看</a>  
+        val: <a href="/tags/Games" target="_self" rel="nofollow">查看</a>  
+
+# 横幅 Banner
+banner:
+  use_cover: false
+  default:
+    type: img
+    bgurl: /img/banner.png
+    bannerText: Hi my new friend!
+    position: top
+    fit: cover
+  index:
+    type: video
+    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerText: Hi my new friend!
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+  archive:
+    bannerTitle: 云间连下榻，<br>天上接行杯。
+    bannerText: The article archive
+  links:
+    bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
+    bannerText: A link to a friend's website
+  comment:
+    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerText: The magic tree hole
+  about:
+    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerText: About me
 
 # 页脚 Footer
 footer:
@@ -87,18 +122,49 @@ categorie_card: #分类卡片
 about:
   # title:        # 标题
   introduction: 大家好，我是菜鸟书生，本博客参考了hexo-theme-async的主题，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
-  blog:         # 博客信息
-  technical: ddd
+  # blog:         # 博客信息
+  blog: 
+    <div class="trm-skill-card trm-scroll-animation trm-active-el" data-scroll="" data-scroll-offset="40">
+      <div class="trm-mb-40">
+        <div class="trm-skill-header">
+          <h6 class="trm-mb-15">Html</h6>
+          <span class="trm-label trm-label-light">100%</span></div>
+        <div class="trm-progressbar-frame">
+          <div class="trm-progressbar p100"></div>
+        </div>
+      </div>
+      <div class="trm-mb-40">
+        <div class="trm-skill-header">
+          <h6 class="trm-mb-15">CSS</h6>
+          <span class="trm-label trm-label-light">100%</span></div>
+        <div class="trm-progressbar-frame">
+          <div class="trm-progressbar p100"></div>
+        </div>
+      </div>
+      <div>
+        <div class="trm-skill-header">
+          <h6 class="trm-mb-15">SCSS</h6>
+          <span class="trm-label trm-label-light">80%</span></div>
+        <div class="trm-progressbar-frame">
+          <div class="trm-progressbar p80"></div>
+        </div>
+      </div>
+    </div>
+  
   # privacy:      # 隐私权说明    
+
+# 友链 Links
+links:
+  title: sss        # 标题
 
 # 评论
 comment:
   giscus:
-    enable: false
-    repo:
-    repo-id:
-    category:
-    category-id:
+    enable: true
+    repo: dwmorning/wmorning_blog
+    repo-id: R_kgDOJVV2rw
+    category: General
+    category-id: DIC_kwDOJVV2r84CVy-H
     mapping: pathname
     reactions-enabled: 1
     emit-metadata: 0
@@ -106,5 +172,18 @@ comment:
     theme: 
       light: light
       dark: dark
+#  本地搜索     
+search:
+  enable: true
+  type: local
+  trigger: auto
+  
+# 百度自动推送
+baidu_push: true
 
+highlight:
+  title: mac
+  height_limit: 200
+layout:
+  page_about: async/about
 

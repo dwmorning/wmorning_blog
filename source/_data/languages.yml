@@ -1,0 +1,10 @@
+# 将要覆盖的语言
+en:
+    site:
+        
+
+zh-Hans:
+    site:
+        ruleText: 项目介绍
+
+# 你也可以扩展其他语言
