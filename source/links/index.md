@@ -1,4 +1,0 @@
----
-title: links
-layout: links
----
