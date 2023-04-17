@@ -108,8 +108,34 @@ lazyload: #图片懒加载
 archive: #归档页
     type: more # less more
 cover: #自定义封面图
-    default: /img/block.jpg
-    type: img
+    type: random
+    default: 
+      - /img/cover/wallhaven-0jlz9p.jpg
+      - /img/cover/wallhaven-01mj83.jpg
+      - /img/cover/wallhaven-2ydy76.jpg
+      - /img/cover/wallhaven-3l9zy3.jpg
+      - /img/cover/wallhaven-3zkold.jpg
+      - /img/cover/wallhaven-4g77y3.jpg
+      - /img/cover/wallhaven-5gwp58.jpg
+      - /img/cover/wallhaven-28pdry.jpg
+      - /img/cover/wallhaven-45gjv7.jpg
+      - /img/cover/wallhaven-8535j1.jpg
+      - /img/cover/wallhaven-exyxvr.jpg
+      - /img/cover/wallhaven-g7ormd.jpg
+      - /img/cover/wallhaven-gp87vd.jpg
+      - /img/cover/wallhaven-gp87vq.jpg
+      - /img/cover/wallhaven-jx5xlw.jpg
+      - /img/cover/wallhaven-kxwzk6.jpg
+      - /img/cover/wallhaven-l8m3r2.jpg
+      - /img/cover/wallhaven-l8m8gy.jpg
+      - /img/cover/wallhaven-md2kl8.jpg
+      - /img/cover/wallhaven-o5x3v7.jpg
+      - /img/cover/wallhaven-r71zwq.jpg
+      - /img/cover/wallhaven-rryqkj.jpg
+      - /img/cover/wallhaven-we61wq.jpg
+      - /img/cover/wallhaven-zym8vj.jpg
+      - /img/cover/wallhaven-zymyvj.jpg
+      - /img/cover/wallhaven-zyxvqy.jpg
 post_pagination: #上下篇文章
     enable: true
     type: large # large || small
@@ -155,7 +181,7 @@ about:
 
 # 友链 Links
 links:
-  title: sss        # 标题
+  title:        # 标题
 
 # 评论
 comment:
