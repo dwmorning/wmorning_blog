@@ -110,32 +110,32 @@ archive: #归档页
 cover: #自定义封面图
     type: random
     default: 
-      - /img/cover/wallhaven-0jlz9p.jpg
-      - /img/cover/wallhaven-01mj83.jpg
-      - /img/cover/wallhaven-2ydy76.jpg
-      - /img/cover/wallhaven-3l9zy3.jpg
-      - /img/cover/wallhaven-3zkold.jpg
-      - /img/cover/wallhaven-4g77y3.jpg
-      - /img/cover/wallhaven-5gwp58.jpg
-      - /img/cover/wallhaven-28pdry.jpg
-      - /img/cover/wallhaven-45gjv7.jpg
-      - /img/cover/wallhaven-8535j1.jpg
-      - /img/cover/wallhaven-exyxvr.jpg
-      - /img/cover/wallhaven-g7ormd.jpg
-      - /img/cover/wallhaven-gp87vd.jpg
-      - /img/cover/wallhaven-gp87vq.jpg
-      - /img/cover/wallhaven-jx5xlw.jpg
-      - /img/cover/wallhaven-kxwzk6.jpg
-      - /img/cover/wallhaven-l8m3r2.jpg
-      - /img/cover/wallhaven-l8m8gy.jpg
-      - /img/cover/wallhaven-md2kl8.jpg
-      - /img/cover/wallhaven-o5x3v7.jpg
-      - /img/cover/wallhaven-r71zwq.jpg
-      - /img/cover/wallhaven-rryqkj.jpg
-      - /img/cover/wallhaven-we61wq.jpg
-      - /img/cover/wallhaven-zym8vj.jpg
-      - /img/cover/wallhaven-zymyvj.jpg
-      - /img/cover/wallhaven-zyxvqy.jpg
+      - https://w.wallhaven.cc/full/0j/wallhaven-0jlz9p.jpg
+      - https://w.wallhaven.cc/full/01/wallhaven-01mj83.jpg
+      - https://w.wallhaven.cc/full/2y/wallhaven-2ydy76.jpg
+      - https://w.wallhaven.cc/full/3l/wallhaven-3l9zy3.jpg
+      - https://w.wallhaven.cc/full/3z/wallhaven-3zkold.jpg
+      - https://w.wallhaven.cc/full/4g/wallhaven-4g77y3.jpg
+      - https://w.wallhaven.cc/full/5g/wallhaven-5gwp58.jpg
+      - https://w.wallhaven.cc/full/28/wallhaven-28pdry.jpg
+      - https://w.wallhaven.cc/full/45/wallhaven-45gjv7.jpg
+      - https://w.wallhaven.cc/full/85/wallhaven-8535j1.jpg
+      - https://w.wallhaven.cc/full/ex/wallhaven-exyxvr.jpg
+      - https://w.wallhaven.cc/full/g7/wallhaven-g7ormd.jpg
+      - https://w.wallhaven.cc/full/gp/wallhaven-gp87vd.jpg
+      - https://w.wallhaven.cc/full/gp/wallhaven-gp87vq.jpg
+      - https://w.wallhaven.cc/full/jx/wallhaven-jx5xlw.jpg
+      - https://w.wallhaven.cc/full/kx/wallhaven-kxwzk6.jpg
+      - https://w.wallhaven.cc/full/l8/wallhaven-l8m3r2.jpg
+      - https://w.wallhaven.cc/full/l8/wallhaven-l8m8gy.jpg
+      - https://w.wallhaven.cc/full/md/wallhaven-md2kl8.jpg
+      - https://w.wallhaven.cc/full/o5/wallhaven-o5x3v7.jpg
+      - https://w.wallhaven.cc/full/r7/wallhaven-r71zwq.jpg
+      - https://w.wallhaven.cc/full/rr/wallhaven-rryqkj.jpg
+      - https://w.wallhaven.cc/full/we/wallhaven-we61wq.jpg
+      - https://w.wallhaven.cc/full/zy/wallhaven-zym8vj.jpg
+      - https://w.wallhaven.cc/full/zy/wallhaven-zymyvj.jpg
+      - https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg
 post_pagination: #上下篇文章
     enable: true
     type: large # large || small
