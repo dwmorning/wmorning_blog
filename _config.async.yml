@@ -215,6 +215,9 @@ baidu_push: true
 highlight:
   title: default
   height_limit: 200
-# layout:
+
+# 自定义模板 Layout
+layout:
+  page_archive: async/archive
   # page_about: async/about
 
