@@ -85,7 +85,7 @@ banner:
 # 页脚 Footer
 footer:
   powered:
-    enable: false
+    enable: true
   beian:
     enable: false
     icp: 
@@ -155,32 +155,32 @@ about:
   introduction: 大家好，我是菜鸟书生，本博客参考了hexo-theme-async的主题，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
   # blog:         # 博客信息
   blog: 
-    <div class="trm-skill-card trm-scroll-animation trm-active-el" data-scroll="" data-scroll-offset="40">
-      <div class="trm-mb-40">
-        <div class="trm-skill-header">
-          <h6 class="trm-mb-15">Html</h6>
-          <span class="trm-label trm-label-light">100%</span></div>
-        <div class="trm-progressbar-frame">
-          <div class="trm-progressbar p100"></div>
-        </div>
+    <div class="row">
+      <div class="col-lg-4"><!-- price table -->
+        <div class="trm-price trm-scroll-animation trm-active-el" data-scroll="" data-scroll-offset="40"><!-- card header -->
+          <div class="trm-price-header">
+            <h6>稀土掘金</h6>
+          </div>
+          <!-- card header end -->
+          <a href="https://juejin.cn/user/3259365820997453" class="trm-btn trm-btn-sm">Go<i class="fas fa-arrow-right"></i></a></div>
+        <!-- price table end --></div>
+      <div class="col-lg-4"><!-- price table -->
+        <div class="trm-price trm-scroll-animation trm-active-el" data-scroll="" data-scroll-offset="40"><!-- card header -->
+          <div class="trm-price-header">
+            <h6>CSDN</h6>
+          </div>
+          <!-- card header end -->
+          <a href="https://blog.csdn.net/weixin_41360517" class="trm-btn trm-btn-sm">Go<i class="fas fa-arrow-right"></i></a></div>
+        <!-- price table end --></div>
+      <div class="col-lg-4"><!-- price table -->
+        <div class="trm-price trm-scroll-animation trm-active-el" data-scroll="" data-scroll-offset="40"><!-- card header -->
+          <div class="trm-price-header">
+            <h6>segmentfault</h6>
+          </div>
+          <!-- card header end -->
+          <a href="https://segmentfault.com/u/wmorning" class="trm-btn trm-btn-sm">Go<i class="fas fa-arrow-right"></i></a></div>
+        <!-- price table end --></div>
       </div>
-      <div class="trm-mb-40">
-        <div class="trm-skill-header">
-          <h6 class="trm-mb-15">CSS</h6>
-          <span class="trm-label trm-label-light">100%</span></div>
-        <div class="trm-progressbar-frame">
-          <div class="trm-progressbar p100"></div>
-        </div>
-      </div>
-      <div>
-        <div class="trm-skill-header">
-          <h6 class="trm-mb-15">SCSS</h6>
-          <span class="trm-label trm-label-light">80%</span></div>
-        <div class="trm-progressbar-frame">
-          <div class="trm-progressbar p80"></div>
-        </div>
-      </div>
-    </div>
   
   # privacy:      # 隐私权说明    
 
@@ -215,6 +215,6 @@ baidu_push: true
 highlight:
   title: default
   height_limit: 200
-layout:
-  page_about: async/about
+# layout:
+  # page_about: async/about
 
