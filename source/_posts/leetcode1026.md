@@ -10,7 +10,7 @@ tags:
   - leetcode
   - 每日一题
 date: 2023-04-18 14:23:40
-author: wmorning
+author: 菜鸟书生
 keywords: 数,深度优先搜索,二叉树
 ---
 ## 1026. 节点与其祖先之间的最大差值

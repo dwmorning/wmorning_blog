@@ -143,6 +143,11 @@ categorie_card: #分类卡片
     enable: true
     len: 2
     list: 
+creative_commons: # 版权信息
+    license: by-nc-sa
+    language: deed.zh
+    post: true
+    clipboard: true
 
 # 关于 About
 about:

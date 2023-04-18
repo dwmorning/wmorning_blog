@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-author: {{ author }}
+author: 菜鸟书生
 keywords: 
 banner: 
   type: img
