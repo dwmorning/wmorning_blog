@@ -1,5 +1,6 @@
 ---
 title: 1026. 节点与其祖先之间的最大差值
+cover: https://w.wallhaven.cc/full/0j/wallhaven-0jlz9p.jpg
 banner:
   type: img
   bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg
@@ -12,9 +13,8 @@ tags:
 date: 2023-04-18 14:23:40
 author: 菜鸟书生
 keywords: 数,深度优先搜索,二叉树
+toc: false
 ---
-## 1026. 节点与其祖先之间的最大差值
-
 [力扣题目链接](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/)
 
 **给定二叉树的根节点 root，找出存在于 不同 节点 A 和 B 之间的最大值 V，其中 V = |A.val - B.val|，且 A 是 B 的祖先。**
