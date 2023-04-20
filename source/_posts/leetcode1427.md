@@ -17,6 +17,8 @@ toc: false
 ---
 
 ## 1427. 字符串的左右移
+[力扣题目链接](https://leetcode.cn/problems/perform-string-shifts/?envType=study-plan-v2&id=premium-algo-100)
+
 给定一个包含小写英文字母的字符串 s 以及一个矩阵 shift，其中 shift[i] = [direction, amount]：
 direction 可以为 0 （表示左移）或 1 （表示右移）。
 amount 表示 s 左右移的位数。

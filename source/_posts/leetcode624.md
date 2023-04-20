@@ -18,7 +18,7 @@ toc: false
 > [尊享面试 100 题](https://dwmorning.github.io/leetcodeVipInterview)是Leetcode会员专享题单
 
 ## 624. 数组列表中的最大距离
-
+[力扣题目链接](https://leetcode.cn/problems/maximum-distance-in-arrays/?envType=study-plan-v2&id=premium-algo-100)
 给定 m 个数组，每个数组都已经按照升序排好序了。现在你需要从两个不同的数组中选择两个整数（每个数组选一个）并且计算它们的距离。两个整数 a 和 b 之间的距离定义为它们差的绝对值 |a-b| 。你的任务就是去找到最大距离
 
 #### **示例 1：**

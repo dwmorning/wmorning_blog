@@ -16,6 +16,7 @@ keywords: 数组, 动态规划
 toc: false
 ---
 ## 1043. 分隔数组以得到最大和
+[力扣题目链接](https://leetcode.cn/problems/partition-array-for-maximum-sum/)
 
 给你一个整数数组 `arr`，请你将该数组分隔为长度 **最多 **为 k 的一些（连续）子数组。分隔完成后，每个子数组的中的所有值都会变为该子数组中的最大值。
 

@@ -17,6 +17,7 @@ toc: false
 ---
 
 ## 1056. 易混淆数
+[力扣题目链接](https://leetcode.cn/problems/confusing-number/?envType=study-plan-v2&id=premium-algo-100)
 给定一个数字 N，当它满足以下条件的时候返回 true：
 原数字旋转 180° 以后可以得到新的数字。
 如 0, 1, 6, 8, 9 旋转 180° 以后，得到了新的数字 0, 1, 9, 8, 6 。

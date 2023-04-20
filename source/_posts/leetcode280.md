@@ -17,6 +17,7 @@ toc: false
 ---
 
 ## 280. 摆动排序
+[力扣题目链接](https://leetcode.cn/problems/wiggle-sort/?envType=study-plan-v2&id=premium-algo-100)
 给你一个的整数数组 nums, 将该数组重新排序后使 nums[0] <= nums[1] >= nums[2] <= nums[3]... 
 输入数组总是有一个有效的答案。
 
