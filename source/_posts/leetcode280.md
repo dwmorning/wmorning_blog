@@ -15,6 +15,7 @@ keywords: 贪心, 数组, 排序
 cover: https://w.wallhaven.cc/full/we/wallhaven-we61wq.jpg
 toc: false
 ---
+> [尊享面试 100 题](https://dwmorning.github.io/leetcodeVipInterview)是Leetcode会员专享题单
 
 ## 280. 摆动排序
 [力扣题目链接](https://leetcode.cn/problems/wiggle-sort/?envType=study-plan-v2&id=premium-algo-100)

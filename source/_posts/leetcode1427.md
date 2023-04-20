@@ -15,6 +15,7 @@ keywords: 数组, 数学, 字符串
 cover: https://w.wallhaven.cc/full/rr/wallhaven-rryqkj.jpg
 toc: false
 ---
+> [尊享面试 100 题](https://dwmorning.github.io/leetcodeVipInterview)是Leetcode会员专享题单
 
 ## 1427. 字符串的左右移
 [力扣题目链接](https://leetcode.cn/problems/perform-string-shifts/?envType=study-plan-v2&id=premium-algo-100)
