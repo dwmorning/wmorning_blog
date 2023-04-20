@@ -1,7 +1,7 @@
 ---
-title: 1043. 分隔数组以得到最大和
+title: 1043. 分隔数组以得到最大和 - 每日一题0419
 author: 菜鸟书生
-cover: https://w.wallhaven.cc/full/01/wallhaven-01mj83.jpg
+cover: https://w.wallhaven.cc/full/2y/wallhaven-2ydy76.jpg
 banner:
   type: img
   bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg

@@ -111,7 +111,6 @@ cover: #自定义封面图
     type: random
     default: 
       - https://w.wallhaven.cc/full/0j/wallhaven-0jlz9p.jpg
-      - https://w.wallhaven.cc/full/01/wallhaven-01mj83.jpg
       - https://w.wallhaven.cc/full/2y/wallhaven-2ydy76.jpg
       - https://w.wallhaven.cc/full/3l/wallhaven-3l9zy3.jpg
       - https://w.wallhaven.cc/full/3z/wallhaven-3zkold.jpg
