@@ -12,7 +12,7 @@ tags:
   - 尊享面试 100 题
 date: 2023-04-20 15:17:22
 keywords: 数组, 数学, 字符串
-cover: https://w.wallhaven.cc/full/zy/wallhaven-zymyvj.jpg
+cover: https://w.wallhaven.cc/full/rr/wallhaven-rryqkj.jpg
 toc: false
 ---
 
