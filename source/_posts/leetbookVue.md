@@ -3,7 +3,7 @@ title: 前端面试突破：Vue
 author: 菜鸟书生
 banner:
   type: img
-  bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg
+  bgurl: https://w.wallhaven.cc/full/1k/wallhaven-1kr323.jpg
   bannerText: 本 LeetBook 针对前端面试，直击面试中 Vue 的核心知识点，从问题出发，带你高效备战求职季。
 categories:
   - leetbook
