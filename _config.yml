@@ -99,6 +99,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: async
 
+# 私密
+encrypt:
+  enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
