@@ -12,7 +12,7 @@ tags:
   - vue
   - 面试
 date: 2023-04-21 22:15:50
-cover: https://w.wallhaven.cc/full/md/wallhaven-md2kl8.jpg
+cover: https://w.wallhaven.cc/full/x8/wallhaven-x8oexo.jpg
 toc: true
 password: 2580
 message: 输入密码界面提示说明
