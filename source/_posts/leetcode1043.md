@@ -47,7 +47,7 @@ toc: false
 **提示：**
 
 * 1 <= arr.length <= 500
-* 0 <= arr[i] <= 10 `<sup>`9 `</sup>`
+* 0 <= arr[i] <= 10 <sup>9 </sup>
 * 1 <= k <= arr.length
 
 ### 思路：

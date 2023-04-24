@@ -35,8 +35,8 @@ toc: false
 ```
 
 **提示：**
-* 1 <= nums.length <= 5 * 104
-* 0 <= nums[i] <= 104
+* 1 <= nums.length <= 5 * 10<sup>4</sup>
+* 0 <= nums[i] <= 10<sup>4</sup>
 * 输入的 nums 保证至少有一个答案。
 
 ### 思路：

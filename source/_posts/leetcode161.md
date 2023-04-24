@@ -39,7 +39,7 @@ toc: false
 ```
 
 **提示:**
-- 0 <= s.length, t.length <= 104
+- 0 <= s.length, t.length <= 10<sup>4</sup>
 - s 和 t 由小写字母，大写字母和数字组成
 
 ### 思路

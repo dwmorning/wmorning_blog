@@ -112,9 +112,9 @@ cover: #自定义封面图
     default: 
       - https://w.wallhaven.cc/full/0j/wallhaven-0jlz9p.jpg #
       - https://w.wallhaven.cc/full/2y/wallhaven-2ydy76.jpg #
-      - https://w.wallhaven.cc/full/3l/wallhaven-3l9zy3.jpg
-      - https://w.wallhaven.cc/full/3z/wallhaven-3zkold.jpg
-      - https://w.wallhaven.cc/full/od/wallhaven-od95m7.jpg
+      - https://w.wallhaven.cc/full/3l/wallhaven-3l9zy3.jpg #
+      - https://w.wallhaven.cc/full/3z/wallhaven-3zkold.jpg #
+      - https://w.wallhaven.cc/full/od/wallhaven-od95m7.jpg #
       - https://w.wallhaven.cc/full/j8/wallhaven-j87ldq.jpg
       - https://w.wallhaven.cc/full/qz/wallhaven-qzdxd5.jpg
       - https://w.wallhaven.cc/full/gj/wallhaven-gj968l.jpg
