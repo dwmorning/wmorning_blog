@@ -99,7 +99,7 @@ footer:
 # 文章 Article
 toc:
     enable: true
-    list_number: false
+    list_number: true
     max_depth: 3
     min_depth: 1
 
@@ -118,7 +118,7 @@ cover: #自定义封面图
       - https://w.wallhaven.cc/full/j8/wallhaven-j87ldq.jpg # 
       - https://w.wallhaven.cc/full/qz/wallhaven-qzdxd5.jpg #
       - https://w.wallhaven.cc/full/gj/wallhaven-gj968l.jpg # 
-      - https://w.wallhaven.cc/full/4g/wallhaven-4g77y3.jpg
+      - https://w.wallhaven.cc/full/4g/wallhaven-4g77y3.jpg # 
       - https://w.wallhaven.cc/full/5g/wallhaven-5gwp58.jpg
       - https://w.wallhaven.cc/full/95/wallhaven-95rrq8.jpg
       - https://w.wallhaven.cc/full/28/wallhaven-28pdry.jpg # 
