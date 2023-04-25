@@ -42,8 +42,8 @@ keywords:
 |      |                                    |                          |                                    |
 | ---- | ---------------------------------- | ------------------------ | ---------------------------------- |
 | 8    | [至多包含两个不同字符的最长子串](https://dwmorning.github.io/leetcode159/) | 哈希表，字符串，滑动窗口 | <font color="#ffb800">中等 </font> |
-| 9    | 至多包含 K 个不同字符的最长子串    | 哈希表，字符串，滑动窗口 | <font color="#ffb800">中等 </font> |
-| 10   | 最大连续1的个数 II                 | 数组，动态规划，滑动窗口 | <font color="#ffb800">中等 </font> |
+| 9    | [至多包含 K 个不同字符的最长子串](https://dwmorning.github.io/leetcode340/)    | 哈希表，字符串，滑动窗口 | <font color="#ffb800">中等 </font> |
+| 10   | [最大连续1的个数 II](https://dwmorning.github.io/leetcode487/)                 | 数组，动态规划，滑动窗口 | <font color="#ffb800">中等 </font> |
 | 11   | [长度为 K 的无重复字符子串](https://dwmorning.github.io/leetcode1100/)      | 哈希表，字符串，滑动窗口 | <font color="#ffb800">中等 </font> |
 
 ### 哈希
