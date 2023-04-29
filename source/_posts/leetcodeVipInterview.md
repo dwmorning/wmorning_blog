@@ -2,7 +2,7 @@
 title: 尊享面试 100 题目录
 author: 菜鸟书生
 sticky: 10
-cover: https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg
+# cover: https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg
 banner:
   type: img
   bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg

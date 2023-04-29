@@ -12,7 +12,7 @@ tags:
   - 尊享面试 100 题
 date: 2023-04-20 14:32:16
 keywords: 贪心, 数组, 排序
-cover: https://w.wallhaven.cc/full/we/wallhaven-we61wq.jpg
+# cover: https://w.wallhaven.cc/full/we/wallhaven-we61wq.jpg
 toc: false
 ---
 > [尊享面试 100 题](https://dwmorning.github.io/leetcodeVipInterview)是Leetcode会员专享题单

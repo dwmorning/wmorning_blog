@@ -12,7 +12,7 @@ tags:
   - 每日一题
 date: 2023-04-23 09:41:40
 keywords: 数组, 动态规划
-cover: https://w.wallhaven.cc/full/0j/wallhaven-0jre25.jpg
+# cover: https://w.wallhaven.cc/full/0j/wallhaven-0jre25.jpg
 toc: false
 ---
 ## 1105. 填充书架

@@ -1,7 +1,7 @@
 ---
 title: 624. 数组列表中的最大距离
 author: 菜鸟书生
-cover: https://w.wallhaven.cc/full/28/wallhaven-28pdry.jpg
+# cover: https://w.wallhaven.cc/full/28/wallhaven-28pdry.jpg
 banner:
   type: img
   bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg

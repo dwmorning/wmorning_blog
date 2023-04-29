@@ -12,7 +12,7 @@ tags:
   - leetcode
 date: 2023-04-20 15:44:58
 keywords: 双指针, 字符串
-cover: https://w.wallhaven.cc/full/r7/wallhaven-r71zwq.jpg
+# cover: https://w.wallhaven.cc/full/r7/wallhaven-r71zwq.jpg
 toc: false
 ---
 > [尊享面试 100 题](https://dwmorning.github.io/leetcodeVipInterview)是Leetcode会员专享题单

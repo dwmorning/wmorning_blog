@@ -12,7 +12,7 @@ tags:
   - 尊享面试 100 题
 date: 2023-04-20 14:43:20
 keywords: 数学
-cover: https://w.wallhaven.cc/full/zy/wallhaven-zym8vj.jpg
+# cover: https://w.wallhaven.cc/full/zy/wallhaven-zym8vj.jpg
 toc: false
 ---
 > [尊享面试 100 题](https://dwmorning.github.io/leetcodeVipInterview)是Leetcode会员专享题单

@@ -12,7 +12,7 @@ tags:
   - 每日一题
 date: 2023-04-26 16:31:57
 keywords: 数组, 动态规划, 滑动窗口
-cover: https://w.wallhaven.cc/full/5g/wallhaven-5gwp58.jpg
+# cover: https://w.wallhaven.cc/full/5g/wallhaven-5gwp58.jpg
 toc: false
 ---
 

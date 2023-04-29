@@ -12,7 +12,7 @@ tags:
   - 每日一题
 date: 2023-04-25 09:51:30
 keywords: 数组, 哈希表, 排序, 字符串
-cover: https://w.wallhaven.cc/full/j8/wallhaven-j87ldq.jpg
+# cover: https://w.wallhaven.cc/full/j8/wallhaven-j87ldq.jpg
 toc: false
 ---
 

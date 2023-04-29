@@ -1,6 +1,6 @@
 ---
 title: 1026. 节点与其祖先之间的最大差值 - 每日一题0418
-cover: https://w.wallhaven.cc/full/0j/wallhaven-0jlz9p.jpg
+# cover: https://w.wallhaven.cc/full/0j/wallhaven-0jlz9p.jpg
 banner:
   type: img
   bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg

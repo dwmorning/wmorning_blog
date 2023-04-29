@@ -12,7 +12,7 @@ tags:
   - 每日一题
 date: 2023-04-21 21:34:25
 keywords: 数学, 数论
-cover: https://w.wallhaven.cc/full/o5/wallhaven-o5x3v7.jpg
+# cover: https://w.wallhaven.cc/full/o5/wallhaven-o5x3v7.jpg
 toc: false
 ---
 
