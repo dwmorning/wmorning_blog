@@ -3,7 +3,6 @@ title: {{ title }}
 date: {{ date }}
 author: 菜鸟书生
 keywords: 
-cover:
 toc:
 banner: 
   type: img
