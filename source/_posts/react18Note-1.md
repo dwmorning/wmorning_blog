@@ -1,21 +1,20 @@
 ---
-title: react 18 笔记
+title: React18核心概念与类组件使用
 author: 菜鸟书生
 banner:
   type: img
   bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg
-  bannerText: 入门React
+  bannerText: 入门React18
 categories:
   - react
 tags:
   - react
   - note
-date: 2023-04-25 23:41:45
+date: 2023-05-05 23:41:45
 keywords: 
 toc: true
 ---
 
-# React18核心概念与类组件使用 – 入门React18第一步
 ## props细节详解及注意事项
 
 ### 构造器中获取props数据
@@ -171,6 +170,7 @@ let element = (
     <Welcome />
 );
 ```
+
 ## state细节详解及React18的自动批处理
 
 ### 自动批处理
@@ -402,6 +402,7 @@ let element = (
     <Welcome />
 );
 ```
+
 ## immutable.js不可变数据集合
 
 在上一个小节中，我们对数组进行了浅拷贝处理，这样可以防止直接修改数组的引用地址。但是对于深层次的对象就不行了，需要进行深拷贝处理。
@@ -415,9 +416,10 @@ Immutable 是 Facebook 开发的不可变数据集合。不可变数据一旦创
 具体是如何做到高效的，可以参考图示。
 
 <div align=center>
-    <img src="/image/react18Note/immutablejs.gif" />
+    <img src="image/react18Note/immutablejs.gif" />
     <div>immutablejs</div>
 </div>
+
 
 下面就来看一下immutable.js的基本使用吧，代码如下：
 
@@ -578,6 +580,7 @@ class Welcome extends React.Component {
     <div>常见生命周期图谱</div>
 </div>
 
+
 生命周期主要分为三个阶段：
 
 - 挂载时
@@ -631,6 +634,285 @@ class Welcome extends React.Component {
 }
 ```
 
+## 详解不常见生命周期钩子函数
 
+不常见的生命周期钩子函数有以下几个：
 
+- getDerivedStateFromProps：props派生state的值
+- shouldComponentUpdate：优化render渲染次数
+- getSnapshotBeforeUpdate：DOM更新前的快照
 
+## getDerivedStateFromProps
+
+这个钩子主要是由props来决定state的值，这个需求比较少，下面来看例子。
+
+```jsx
+class Welcome extends React.Component {
+    state = {
+        isAdd: false,
+        lastNow: 0
+    }
+    static getDerivedStateFromProps = (props, state) => {
+        return {
+            isAdd: props.currentNow > state.lastNow,
+            lastNow: props.currentNow
+        }
+    }
+    render(){
+        return (
+            <div>
+                { this.state.isAdd ? '累加' : '累减' }, { this.state.lastNow }
+            </div>
+        );
+    }
+}
+let now = 0;
+let dir = 1;
+setInterval(()=>{
+    if(now === 0){
+        dir = 1;
+    }
+    else if(now === 5){
+        dir = -1;
+    }
+    now += dir;
+    let element = (
+        <Welcome currentNow={now} />
+    );
+    root.render(element);
+}, 1000)
+```
+
+ 通过props的变化来决定state的值，可以完成一些界面的更新操作。
+
+### shouldComponentUpdate
+
+根据返回的结果的不同，选择性进行渲染，是进行性能优化的一种手段，这个钩子在前面学习PureComponent小节中就已经学习到了，这里不再赘述该如何使用。
+
+### getSnapshotBeforeUpdate
+
+这个钩子可以触发DOM更新前的快照，可以把更新前的一些数据通过return提供出来，并通过`componentDidUpdate`钩子的第三个参数进行接收。
+
+可以利用这一点来进行DOM前后对比的差异比较，代码如下：
+
+```jsx
+class Welcome extends React.Component {
+    state = {
+        list: ['a', 'b', 'c']
+    }
+    myRef = React.createRef()
+    handleClick = () => {
+        this.setState({
+            list: [...this.state.list, 'd', 'e', 'f']
+        })
+    }
+    getSnapshotBeforeUpdate = (props, state) => {
+        return this.myRef.current.offsetHeight;
+    }
+    componentDidUpdate = (props, state, snapshot) => {
+        console.log( this.myRef.current.offsetHeight - snapshot );
+    }
+    render(){
+        return (
+            <div>
+                <button onClick={this.handleClick}>点击</button>
+                <ul ref={this.myRef}>
+                    { this.state.list.map((v, i)=> <li key={i}>{v}</li>) }
+                </ul>
+            </div>
+        );
+    }
+}
+```
+
+## 组件内容的组合模式
+
+React组件也是可以进行内容分发的，但是并不想Vue一样通过插槽来进行接收，而是通过props.children这个属性进行接收的。
+
+```jsx
+class Welcome extends React.Component {
+    render(){
+        return (
+            <div>
+                hello world, { this.props.children }
+            </div>
+        );
+    }
+}
+let element = (
+    <Welcome>
+        <h2>这是一个标题</h2>
+    </Welcome>
+);
+```
+
+那么如何进行多内容的分区域处理呢？也就是Vue中多插槽的概念。这个就不能利用props.children来实现了，只能采用React模板的能力，通过传递JSX元素的方式进行实现。
+
+```jsx
+class Welcome extends React.Component {
+    render(){
+        return (
+            <div>
+                { this.props.title }
+                hello world
+                { this.props.content }
+            </div>
+        );
+    }
+}
+let element = (
+    <Welcome title={ <h2>这是一个标题</h2> } content={ <p>这是一个段落</p> } />
+);
+```
+
+## 复用组件功能之Render Props模式
+
+### Render Props模式
+
+术语 “render props” 是指一种在 React 组件之间使用一个值为函数的 prop 共享代码的简单技术。利用这种方式可以实现组件之间的功能复用操作。
+
+```jsx
+class MouseXY extends React.Component {
+    state = {
+        x: 0,
+        y: 0
+    }
+    componentDidMount = () => {
+        document.addEventListener('mousemove', this.move)
+    }
+    componentWillUnmount = () => {
+        document.removeEventListener('mousemove', this.move)
+    }
+    move = (ev) => {
+        this.setState({
+            x: ev.pageX,
+            y: ev.pageY
+        });
+    }
+    render(){
+        return (
+            <React.Fragment>
+                { this.props.render(this.state.x, this.state.y) }
+            </React.Fragment>
+        );
+    }
+}
+class Welcome extends React.Component {
+    render(){
+        return (
+            <MouseXY render={(x, y)=> 
+               <div>
+                  hello world, {x}, {y}
+               </div>
+            } />
+        );
+    }
+}
+let element = (
+    <Welcome />
+);
+```
+
+主要就是render属性后面的值是一个回调函数，通过这个函数的形参可以得到组件中的数据，从而实现功能的复用。
+
+## 复用组件功能之HOC高阶组件模式
+
+### HOC高阶组件
+
+除了Render Props模式可以复用组件外，还可以利用HOC高阶组件来实现，他是React 中用于复用组件逻辑的一种高级技巧，具体而言，就是参数为组件，返回值为新组件的函数。
+
+```jsx
+function withMouseXY(WithComponent){
+    return class extends React.Component {
+        state = {
+            x: 0,
+            y: 0
+        }
+        componentDidMount = () => {
+            document.addEventListener('mousemove', this.move)
+        }
+        componentWillUnmount = () => {
+            document.removeEventListener('mousemove', this.move)
+        }
+        move = (ev) => {
+            this.setState({
+                x: ev.pageX,
+                y: ev.pageY 
+            })
+        }
+        render(){
+            return <WithComponent {...this.state} />
+        }
+    }
+}
+class Welcome extends React.Component {
+    render(){
+        return (
+            <div>
+                hello world, { this.props.x }, { this.props.y }
+            </div>
+        );
+    }
+}
+const MouseWelcome = withMouseXY(Welcome)
+let element = (
+    <MouseWelcome />
+);
+```
+
+## 组件跨层级通信方案Context
+
+### Context通信
+
+前面我们学习了父子组件之间的通信，有时候我们需要多层组件之间的嵌套，那么如果从最外层一层一层的把数据传递到最内层的话势必会非常的麻烦。
+
+所以context的作用就是解决这个问题，可以把数据直接从最外层传递给最内层的组件。
+
+```jsx
+let MyContext = React.createContext();
+class Welcome extends React.Component {
+    state = {
+        msg: 'welcome组件的数据'
+    }
+    render(){
+        return (
+            <div>
+                Hello Welcome
+                <MyContext.Provider value={this.state.msg}>
+                    <Head />
+                </MyContext.Provider>
+            </div>
+        );
+    }
+}
+class Head extends React.Component {
+    render(){
+        return (
+            <div>
+                Hello Head
+                <Title />
+            </div>
+        );
+    }
+}
+class Title extends React.Component {
+    static contextType = MyContext
+    componentDidMount = () => {
+        console.log( this.context );
+    }
+    render(){
+        return (
+            <div>
+                Hello Title <MyContext.Consumer>{ value => value }</MyContext.Consumer>
+            </div>
+        );
+    }
+}
+let element = (
+    <Welcome />
+);
+```
+
+这里传递的语法，是通过`<MyContext.Provider>`组件携带`value`属性进行向下传递的，那么接收的语法是通过`<MyContext.Consumer>`组件。
+
+也可以定义一个静态方法`static contextType = MyContext`，这样就可以在逻辑中通过`this.context`来拿到同样的值。

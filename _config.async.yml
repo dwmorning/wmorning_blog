@@ -143,7 +143,6 @@ cover: #自定义封面图
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-49qy8d.jpg
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-6k7z5l.jpg
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-45pe95.jpg #
-      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-1kr323.jpg #
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-yj7wqk.jpg #
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-o5x3v7.jpg #
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-r71zwq.jpg #
@@ -151,6 +150,30 @@ cover: #自定义封面图
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-we61wq.jpg #
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-zym8vj.jpg #
       - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-zyxvqy.jpg #
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-0wz1p6.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-1kr69v.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-3l9kr9.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-5gwrj1.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-6dkmwl.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-8o5v1k.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-9d6g7w.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-953xmw.png
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-gp8wld.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-gp87dq.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-m3dzw1.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-o5x3v7.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-p98ljj.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-qz6p85.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-weyq3p.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-x6l93d.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-y8zeyg.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-z8dlkj.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-z81mqv.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-z81ovo.png
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-z853dv.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-zym8vj.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-zymxpv.jpg
+      - //gcore.jsdelivr.net/gh/dwmorning/wmorning-imgs/blogImgs/wallhaven-zymyvj.jpg
 post_pagination: #上下篇文章
     enable: true
     type: large # large || small
