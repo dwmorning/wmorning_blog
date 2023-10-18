@@ -416,7 +416,7 @@ Immutable 是 Facebook 开发的不可变数据集合。不可变数据一旦创
 具体是如何做到高效的，可以参考图示。
 
 <div align=center>
-    <img src="image/react18Note/immutablejs.gif" />
+    <img src="/image/react18Note/immutablejs.gif" />
     <div>immutablejs</div>
 </div>
 
